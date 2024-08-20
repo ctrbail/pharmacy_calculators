@@ -21,7 +21,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Create Angular project
-        run: npx ng new your-angular-project --directory . --skip-install --defaults --skip-ssr
+        run: npx ng new your-angular-project --directory . --skip-install --defaults
 
       - name: Install dependencies
         run: npm install
